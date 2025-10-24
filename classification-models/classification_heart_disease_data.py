@@ -131,6 +131,7 @@ if show_graphs:
     # Each feature gets roughly 3.5 inches of height.
     #import math also so that it draw the graphs accordingly with correct
     #padding and height size
+    #for exact calculation of grid import math
     import math
     plt.figure(figsize=(15, math.ceil(len(num_columns) /4) * 2.5))
     for idx, feature in enumerate(num_columns, 1):
