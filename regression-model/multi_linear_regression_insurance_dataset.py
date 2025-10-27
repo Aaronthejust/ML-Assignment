@@ -11,7 +11,7 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.metrics import max_error, explained_variance_score,mean_absolute_error,root_mean_squared_error, r2_score
 
-df = pd.read_csv('dataset/Insurance_Charges_Dataset.csv')
+df = pd.read_csv('dataset/regression_datasets/Insurance_Charges_Dataset.csv')
 print(df)
 print(df.head())
 print(df.describe().T)
