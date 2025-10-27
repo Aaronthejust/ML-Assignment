@@ -16,7 +16,7 @@ from sklearn.naive_bayes import GaussianNB
 
 from sklearn.metrics import accuracy_score, recall_score,f1_score,precision_score,confusion_matrix,roc_auc_score
 
-df = pd.read_csv('dataset/breast_cancer_dataset.csv')
+df = pd.read_csv('dataset/classification_datasets/breast_cancer_dataset.csv')
 print(df.head())
 print(df)
 print(df.columns)
