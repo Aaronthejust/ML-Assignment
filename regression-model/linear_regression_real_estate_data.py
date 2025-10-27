@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-df = pd.read_csv('dataset/Real_Estate_Sales_2001-2022_GL-Short.csv', index_col='Serial Number')
+df = pd.read_csv('dataset/regression_datasets/Real_Estate_Sales_2001-2022_GL-Short.csv', index_col='Serial Number')
 print(df)
 print("Calling different methods for quick analysis on Data Frame.")
 print(df.info())
