@@ -119,7 +119,6 @@ def evaluate_model(model, x_test, y_test):
         'Cohen Kappa': cohen_kappa_score(y_test, y_pred)
     }
     cm = confusion_matrix(y_test, y_pred)
-    cm = confusion_matrix(y_test, y_pred)
     disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=model.classes_)
     disp.plot(cmap='Blues')
     plt.title("Confusion Matrix")
