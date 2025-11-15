@@ -4,7 +4,7 @@ import numpy as np
 import sklearn.preprocessing
 import seaborn as sns
 
-df = pd.read_csv('dataset/student_dropout_academic_data.csv', delimiter=';')
+df = pd.read_csv('dataset/classification_datasets/student_dropout_academic_data.csv', delimiter=';')
 print(df)
 print(df.head())
 print(df.shape)
