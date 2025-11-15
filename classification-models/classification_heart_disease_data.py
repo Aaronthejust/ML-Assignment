@@ -14,7 +14,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.metrics import precision_score, accuracy_score
 
 
-df = pd.read_csv('dataset/heart_disease_dataset.csv')
+df = pd.read_csv('dataset/classification_datasets/heart_disease_dataset.csv')
 print(df)
 
 #performing EDA techniques on df
