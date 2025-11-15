@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, mean_squared_error,r2_score
 
-df = pd.read_csv('dataset/car_fuel_consumption_dataset.csv')
+df = pd.read_csv('dataset/regression_datasets/car_fuel_consumption_dataset.csv')
 print(df)
 print(df.head())
 print(df.tail())
