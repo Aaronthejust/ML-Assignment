@@ -256,5 +256,3 @@ print("R2_Score: ",r2)
 # Although not perfect, the model captures most patterns 
 # effectively and could be improved with feature scaling, 
 # polynomial terms, or interaction effects.
-
-
